@@ -27,9 +27,23 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+	If the server can authenticate the users credentials, it will return a token to client, read the token and make decisions for data transfer based on the client’s permission.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+		○ Add environmental variables on vercel for access keys or other secure info
+		○ Protected routes
+		○ Send authentication header with API calls 
+
 - [ ] Describe how web servers work.
+
+	The web server is a internet-connected computer that receives the request for a web page sent by your browser. It's primary function is to store, process and deliver web pages to clients.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+	PUT is the 'U', meaning update
+DELETE is the 'D'
 
 
 ## Project Set Up
